@@ -29,6 +29,10 @@ function start() {
 		return;
 	}
 
+	if(count > 1000) {
+		var i = confirm("You have input a large number. This may take some time to calculate, are you sure you wish to continue?");
+		if(!i) return;
+	}
 	//read the numbers from the textarea
 	inputNums = readNumbers();
 
@@ -46,7 +50,7 @@ function start() {
 	document.getElementById("stats").style.opacity = "0";
 	document.getElementById("csvData").style.opacity = "0";
 	console.log(digitCountArray.length);
-	showChosenNums(randNums, true);
+	//showChosenNums(randNums, true);
 	createStats(digitCountArray, count);
 	dumpCSV(digitCountArray);
 }
