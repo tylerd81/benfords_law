@@ -1,0 +1,165 @@
+/* Tyler D. 8/15/13 */
+
+html,body {margin: 0;padding: 0;}
+
+body 
+{
+	background-image: url('images/bodybg.png');
+	font-family: Arial;
+}
+form ul 
+{
+	list-style-type: none;
+	padding: 0;
+}
+
+form ul li
+{
+	margin-bottom: 10px;
+}
+
+form label
+{
+	display: block;
+	margin-bottom: 5px;
+}
+div#inputForm
+{
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	padding: 10px 10px;
+	border-radius: 5px;
+	border: solid 2px #000;
+	background-color: #1E1E1E;
+	box-shadow: 3px 3px 15px #000;
+	text-shadow: 2px 2px 5px #000;
+	color: #B5B5B5;
+	
+	width: 425px;
+	
+	overflow: hidden;
+}
+div#status
+{
+	background-color: #1E1E1E;
+	border: solid 2px #000;
+	border-radius: 3px;
+	color: #B5B5B5;
+	text-shadow: 2px 2px 5px #000;
+	box-shadow: 3px 3px 15px #000;
+	margin: 10px 10px;
+	padding: 5px 5px;
+	font-size: 110%;
+	font-weight: bold;
+	clear: both;
+}
+
+#randomNums
+{
+	width: 98%;
+	margin: 0 auto;
+	border: solid 2px #000;
+
+	resize: none;
+}
+input.niceButton
+{
+	background-color: #000;
+	border: solid 1px #000;
+	border-radius: 3px;
+	color: #000;
+	box-shadow: 3px 3px 15px #000;
+	text-shadow: 2px 2px 5px #000;
+	font-size: 120%;
+	height: 50px;
+
+	background-image: url('images/button.png');
+	background-repeat: repeat-x;
+}
+input.niceButton:hover
+{
+	border-color: #FFF;
+}
+
+div#stats
+{
+	opacity: 0;
+	-webkit-transition: opacity 2s ease-in-out;
+	background-color: #1E1E1E;
+	border: solid 2px #000;
+	border-radius: 3px;
+	color: #B5B5B5;
+	text-shadow: 2px 2px 5px #000;
+	box-shadow: 3px 3px 15px #000;
+	
+	margin-left: 465px;
+	margin-top: 10px;
+	margin-right: 10px;
+	padding: 5px 5px;
+	font-size: 110%;
+	font-weight: bold;
+
+}
+table#statsTable
+{
+	border-collapse: collapse;
+	width: 100%;
+}
+table#statsTable tr th,td
+{
+	padding: 5px 5px;
+}
+table#statsTable tr th
+{
+	background-color: #FFD800;
+	color: #000;
+	text-shadow: none;
+	border: solid 1px #000;
+}
+table#statsTable tr td
+{
+	background-color: #6E6E6E;
+	border:solid 1px #848484;
+	color: #FFF;
+}
+table#statsTable tr
+{
+	
+}
+
+div#csvData
+{
+	opacity: 0;
+	-webkit-transition: opacity 2s ease-in-out;
+	background-color: #1E1E1E;
+	border: solid 2px #000;
+	border-radius: 3px;
+	color: #B5B5B5;
+	text-shadow: 2px 2px 5px #000;
+	box-shadow: 3px 3px 15px #000;
+	
+	margin-left: 465px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+
+	font-size: 110%;
+	font-weight: bold;
+}
+
+div#csvData h2
+{
+	background-color: #FFD800;
+	color: #000;
+	text-shadow: none;
+	border: solid 1px #000;
+	margin: 0;
+	text-align: center;
+}
+ol#csvList
+{
+	list-style-type: none;
+	padding: 0 10px;
+}
+

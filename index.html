@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="random.js"></script>
+	<title>Random Number Tests</title>
+</head>
+
+<body>
+	<!--<a href="#" id="dump">Dump Data</a>-->
+
+	<div id="inputForm">
+		<form>		
+			<ul>
+				<li>
+					<label>Click a button for some preset data or enter your own data in the textbox.</label>
+					<input type="button" value="Country Populations" id="presetPop" class="niceButton">
+					<input type="button" value="UFO Sightings" id="presetUFO" class="niceButton">
+				</li>
+				<li>
+					<textarea placeholder="Enter a list of numbers here" id="randomNums" rows="20" cols="50"></textarea>
+				</li>
+
+				
+				<li>
+					<label>Number of values to randomly choose:</label>			
+					<input type="text" size="5" maxlength="5" id="numChoose" value="200">
+				</li>
+				<li>
+					<input type="button" class="niceButton" value="Choose Random Numbers" id="randButton">
+					<input type="button" class="niceButton" value="Clear" id="clearButton">
+				</li>
+
+			</ul>
+		</form>
+	</div>
+
+	<div id="stats">
+		<table id="statsTable">
+
+		</table>
+	</div>
+
+	<div id="csvData">
+		<h2>CSV</h2>
+		<ol id="csvList">
+		</ol>
+	</div>
+
+	<div id="status">
+		<p>Input the list of numbers above. The numbers should be seperated by a newline</p>
+	</div>
+</body>
+
+</html>
