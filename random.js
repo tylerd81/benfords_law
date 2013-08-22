@@ -128,12 +128,15 @@ function showChosenNums(numArray, sort) {
 
 function dumpCSV(digitArray) {
 	var csvList = document.getElementById("csvList");
-	var listStr = "";
+	var listStr = "<table class='simpleTable'>";
 
-	for(var i = 1; i < 9; i++) //skip 0
+	listStr += "<tr><th>Digit</th><th>Frequency</th></tr>";
+	for(var i = 1; i < 10; i++) //skip 0
 	{
-		listStr += "<li>" + i + "," + digitArray[i] + "</li>";
+		listStr += "<tr><td>" + i + "</td><td>" + digitArray[i] + "</td></tr>";
 	}
+
+	listStr += "</table>";
 
 	csvList.innerHTML = listStr;
 

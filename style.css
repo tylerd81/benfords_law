@@ -167,3 +167,14 @@ div#w3cicon
 {
 	margin-left: 10px;
 }
+
+table.simpleTable
+{
+	border: solid 1px #000;
+	border-collapse: collapse;
+}
+
+table.simpleTable tr,td,th
+{
+	border: solid 1px #000;
+}
